@@ -1,14 +1,18 @@
 .slidein{
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-name: slidein;
 }
 
 @keyframes slidein {
   from {
     margin-left: 100%;
+    transform:rotate(0deg);
   }
-
+  50%{
+  	width: 100px;
+  }
   to {
     margin-left: 0%;
+	transform:rotate(360deg);
   }
 }
