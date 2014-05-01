@@ -2,12 +2,20 @@
 	animation-duration: 2s;
 	animation-name: flip;
 }
+#slidein-foxkeh img{
+	width: 300px;
+}
 
 @keyframes flip{
 	from{
+		width: 300px;
 		transform:rotate(0deg);
 	}
+	50%{
+		width: 100px;
+	}
 	to{
+		width: 300px;
 		transform:rotate(360deg);
 	}
 }
